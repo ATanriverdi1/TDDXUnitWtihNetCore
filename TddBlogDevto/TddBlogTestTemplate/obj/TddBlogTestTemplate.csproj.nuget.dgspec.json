@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogTestTemplate\\TddBlogTestTemplate.csproj": {}
+  },
+  "projects": {
+    "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogDevto\\TddBlogDevto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogDevto\\TddBlogDevto.csproj",
+        "projectName": "TddBlogDevto",
+        "projectPath": "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogDevto\\TddBlogDevto.csproj",
+        "packagesPath": "C:\\Users\\alihan\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogDevto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogTestTemplate\\TddBlogTestTemplate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogTestTemplate\\TddBlogTestTemplate.csproj",
+        "projectName": "TddBlogTestTemplate",
+        "projectPath": "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogTestTemplate\\TddBlogTestTemplate.csproj",
+        "packagesPath": "C:\\Users\\alihan\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogTestTemplate\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogDevto\\TddBlogDevto.csproj": {
+                "projectPath": "D:\\git\\TDDXUnitWtihNetCore\\TddBlogDevto\\TddBlogDevto\\TddBlogDevto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.15.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
